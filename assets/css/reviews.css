@@ -1,0 +1,22 @@
+/* Reviews Page Styles */
+.reviews-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px;
+}
+
+.reviews-gallery img {
+    width: auto;
+    max-width: 100%; /* Ensures images don't overflow */
+    height: auto;
+    object-fit: contain;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.reviews-gallery img:hover {
+    transform: scale(1.05);
+}
