@@ -1,0 +1,96 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Reviews - Next Click</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="stylesheet" href="assets/css/main.css" />
+        <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+
+    </head>
+    <body>
+        <!-- Wrapper -->
+        <div id="wrapper">
+            
+            <!-- Header -->
+            <header id="header">
+                <a href="index.html" class="logo">Next Click</a>
+            </header>
+            
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li class="active"><a href="index.html">Home</a></li>
+							<li><a href="reviews.html">Reviews</a></li>
+							
+							<li><a href="calender.html">Calender Link</a></li>
+						</ul>
+						<ul class="icons">
+							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="#" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+						</ul>
+					</nav>
+            
+            <!-- Main -->
+            <div id="main">
+                <article>
+                    <header>
+                        <h1>Customer Reviews</h1>
+                        <p>See what our happy clients have to say!</p>
+                    </header>
+                    
+                    <section>
+						<h2>Client Reviews</h2>
+						<div class="reviews-gallery">
+							<a href="images/review01.jpg" data-lightbox="reviews">
+								<img src="images/review01.jpg" alt="Review 1">
+							</a>
+							<a href="images/review02.jpg" data-lightbox="reviews">
+								<img src="images/review02.jpg" alt="Review 2">
+							</a>
+							<a href="images/review03.jpg" data-lightbox="reviews">
+								<img src="images/review03.jpg" alt="Review 3">
+							</a>
+							<a href="images/review04.jpg" data-lightbox="reviews">
+								<img src="images/review04.jpg" alt="Review 4">
+							</a>
+							<a href="images/review05.jpg" data-lightbox="reviews">
+								<img src="images/review05.jpg" alt="Review 5">
+							</a>
+						</div>
+					</section>
+					
+					
+                    
+                    <a href="index.html" class="button">Back to Home</a>
+                </article>
+            </div>
+            
+            <!-- Footer -->
+            <footer id="footer">
+                <p>&copy; 2025 Next Click. All rights reserved.</p>
+            </footer>
+        </div>
+        
+        <style>
+            .reviews-gallery {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+                gap: 15px;
+                padding: 20px;
+            }
+            .reviews-gallery img {
+                width: 100%;
+                border-radius: 10px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+                transition: transform 0.3s ease;
+            }
+            .reviews-gallery img:hover {
+                transform: scale(1.05);
+            }
+        </style>
+    </body>
+</html>
